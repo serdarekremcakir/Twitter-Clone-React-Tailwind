@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   
+    .active {
+        @apply font-bold text-black stroke-black
+    }
+
+    .disable{
+        @apply opacity-30 cursor-context-menu 
+    }
+
+    .content-active{
+        @apply opacity-100 cursor-pointer
+    }
+}
